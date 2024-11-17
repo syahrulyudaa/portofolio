@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+/* Menggunakan Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Kelas untuk maksimal lebar */
+.max-width {
+  @apply lg:mx-auto lg:px-24 xl:px-48 px-5;
+}
+
+/* Gradien Latar Belakang */
+.bg-gradient {
+  @apply bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600;
+}
+
+/* Gradien Teks */
+.text-gradient {
+  @apply bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600 bg-clip-text text-transparent;
+}
+
+/* Kelas untuk Penataan Bagian */
+.section {
+  @apply pt-28 xl:pt-28 2xl:pt-44;
+}
+
+/* Penyesuaian Warna untuk Teks */
+.text-content {
+  @apply text-dark-content dark:text-light-content;
+}
+
+/* Mengatur body */
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif; /* Pastikan font terintegrasi */
+}
+
+/* Sembunyikan Scrollbar untuk Chrome, Safari, dan Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sembunyikan Scrollbar untuk Firefox */
+body {
+  scrollbar-width: none; /* Firefox */
+}
