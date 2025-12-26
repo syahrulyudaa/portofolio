@@ -57,7 +57,7 @@ export const workDetails = [
     Company: `PT Telkom Satelit Indonesia`,
     Location: "Bogor Jawa Barat",
     Type: "Freelance",
-    Duration: "jan 2025 - Feb 2025",
+    Duration: "Nov 2024 - Feb 2025",
   },
   {
     Position: "Android with Java Native",
