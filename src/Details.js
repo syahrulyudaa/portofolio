@@ -99,7 +99,6 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
-  flutter: flutter,
   redux: redux,
   sass: sass,
   tailwind: tailwind,
