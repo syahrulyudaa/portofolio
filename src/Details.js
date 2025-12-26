@@ -46,6 +46,20 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "IT Staff",
+    Company: `PT Pura Group`,
+    Location: "Kudus, Jawa Tengah",
+    Type: "Fulltime",
+    Duration: "Nov 2025 – Present",
+  },
+  {
+    Position: "Quality Control ",
+    Company: `PT Telkom Satelit Indonesia`,
+    Location: "Bogor Jawa Barat",
+    Type: "Freelance",
+    Duration: "jan 2025 - Feb 2025",
+  },
+  {
     Position: "Android with Java Native",
     Company: `PT Hacktivate Teknologi Indonesia`,
     Location: "Jakarta Selatan",
@@ -85,6 +99,7 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
+  flutter: flutter,
   redux: redux,
   sass: sass,
   tailwind: tailwind,
