@@ -47,7 +47,6 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "IT Staff",
-    Company: `PT Pura Barutama`,
     Location: "Kudus, Jawa Tengah",
     Type: "Fulltime",
     Duration: "Nov 2025 – Present",
