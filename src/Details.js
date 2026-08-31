@@ -114,34 +114,67 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "SYSWO - Work Order Management System",
+    image: projectImage1,
+    description:
+      "Internal web-based system for managing work orders, technician assignments, work progress, and maintenance history within the company.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "SYS TRAIN - Training Evaluation System",
+    image: projectImage2,
+    description:
+      "Internal training management and evaluation system for managing training participants, evaluation forms, questions, and employee evaluation results.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "STS - Service Tracking System",
+    image: projectImage3,
+    description:
+      "Internal service tracking system for managing service processes and generating digital Surat Jalan for company operations.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "OEE Monitoring System",
+    image: projectImage4,
+    description:
+      "IoT-based machine monitoring system that collects machine speed data using ESP32 and 4–20 mA sensors and displays monitoring data through a web application.",
+    techstack: "ESP32, Laravel, PHP, PostgreSQL, IoT",
+    githubLink: null,
+  },
+
+  {
+    title: "PM10 Internal Portal",
+    image: projectImage3,
+    description:
+      "Internal company portal that provides centralized access to various applications and digital systems used for daily operations.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "Reqsys - IT Request System",
+    image: projectImage2,
+    description:
+      "Internal IT request management system for submitting, tracking, and managing employee requests for IT services and support.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
     title: "Numatik",
     image: projectImage1,
-    description: `Numatik is a website for browsing and booking event tickets with detailed information and secure payment options.`,
+    description:
+      "Website for browsing and booking event tickets with detailed event information and booking features.",
     techstack: "HTML/CSS, JavaScript, PHP, React",
     githubLink: "https://github.com/syahrulyudaa",
   },
-  {
-    title: "Poliklinik",
-    image: projectImage2,
-    description: `This website is for booking appointments and accessing services at a polyclinic, with detailed information and easy scheduling.`,
-    techstack: "HTML/CSS, JavaScript, Bootsrap",
-    githubLink: "https://github.com/syahrulyudaa",
-  },
-  {
-    title: "Portofolio",
-    image: projectImage3,
-    description: `This website is for booking appointments and accessing services at a polyclinic, with detailed information and easy scheduling.`,
-    techstack: "HTML/CSS, JavaScript, Bootsrap",
-    githubLink: "https://github.com/syahrulyudaa",
-  },
-  {
-    title: "Rivew Film",
-    image: projectImage4,
-    description: `This website provides movie reviews, ratings, and recommendations to help you find the best films for your taste.`,
-    techstack: "HTML/CSS, JavaScript, PHP, Bootstrap",
-    githubLink: "https://github.com/syahrulyudaa",
-  },
-  
 ];
 
 // Enter your Contact Details here
