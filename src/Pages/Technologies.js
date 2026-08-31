@@ -1,19 +1,6 @@
 import React from "react";
-import { techStackDetails } from "../Details";
 
 function Technologies() {
-  const {
-    html,
-    css,
-    js,
-    react,
-    tailwind,
-    bootstrap,
-    vscode,
-    git,
-    github,
-  } = techStackDetails;
-
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
 
@@ -31,80 +18,114 @@ function Technologies() {
         </p>
       </section>
 
-      {/* WEB DEVELOPMENT */}
+
+      {/* =====================================================
+          WEB DEVELOPMENT
+      ====================================================== */}
       <section className="pt-8">
         <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
           Web Development
         </h2>
 
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
-          <img src={html} title="HTML" alt="HTML" />
-          <img src={css} title="CSS" alt="CSS" />
-          <img src={js} title="JavaScript" alt="JavaScript" />
-          
+
           <img
-            src="https://cdn.simpleicons.org/php"
+            src="https://api.iconify.design/logos:html-5.svg"
+            title="HTML"
+            alt="HTML"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:css-3.svg"
+            title="CSS"
+            alt="CSS"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:javascript.svg"
+            title="JavaScript"
+            alt="JavaScript"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:php.svg"
             title="PHP"
             alt="PHP"
           />
 
           <img
-            src="https://cdn.simpleicons.org/laravel"
+            src="https://api.iconify.design/logos:laravel.svg"
             title="Laravel"
             alt="Laravel"
           />
 
-          <img src={react} title="React" alt="React" />
+          <img
+            src="https://api.iconify.design/logos:react.svg"
+            title="React"
+            alt="React"
+          />
 
           <img
-            src={tailwind}
+            src="https://api.iconify.design/logos:tailwindcss-icon.svg"
             title="Tailwind CSS"
             alt="Tailwind CSS"
           />
 
           <img
-            src={bootstrap}
+            src="https://api.iconify.design/logos:bootstrap.svg"
             title="Bootstrap"
             alt="Bootstrap"
           />
+
         </div>
       </section>
 
-      {/* DATABASE */}
+
+      {/* =====================================================
+          DATABASE
+      ====================================================== */}
       <section className="pt-10">
         <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
           Database
         </h2>
 
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+
           <img
-            src="https://cdn.simpleicons.org/mysql"
+            src="https://api.iconify.design/logos:mysql.svg"
             title="MySQL"
             alt="MySQL"
           />
 
           <img
-            src="https://cdn.simpleicons.org/postgresql"
+            src="https://api.iconify.design/logos:postgresql.svg"
             title="PostgreSQL"
             alt="PostgreSQL"
           />
+
         </div>
       </section>
 
-      {/* IOT & EMBEDDED */}
+
+      {/* =====================================================
+          IOT & EMBEDDED
+      ====================================================== */}
       <section className="pt-10">
         <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
           IoT & Embedded
         </h2>
 
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+
           <img
-            src="https://cdn.simpleicons.org/espressif"
+            src="https://api.iconify.design/logos:espressif.svg"
             title="ESP32"
             alt="ESP32"
           />
+
         </div>
       </section>
+
 
       {/* =====================================================
           TOOLS
@@ -116,69 +137,104 @@ function Technologies() {
 
         <p className="text-content py-2 lg:max-w-3xl">
           Tools I use for development, version control, server management,
-          and deployment.
+          database management, and deployment.
         </p>
       </section>
 
-      {/* DEVELOPMENT */}
+
+      {/* =====================================================
+          DEVELOPMENT
+      ====================================================== */}
       <section className="pt-8">
         <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
           Development
         </h2>
 
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+
           <img
-            src={vscode}
+            src="https://api.iconify.design/logos:visual-studio-code.svg"
             title="Visual Studio Code"
             alt="Visual Studio Code"
           />
 
           <img
-            src="https://cdn.simpleicons.org/androidstudio"
+            src="https://api.iconify.design/logos:android-icon.svg"
             title="Android Studio"
             alt="Android Studio"
           />
 
           <img
-            src="https://cdn.simpleicons.org/xampp"
+            src="https://api.iconify.design/logos:xampp.svg"
             title="XAMPP"
             alt="XAMPP"
           />
+
         </div>
       </section>
 
-      {/* VERSION CONTROL & DEPLOYMENT */}
-      <section className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
-        <img src={git} title="Git" alt="Git" />
-      
-        <img src={github} title="GitHub" alt="GitHub" />
-      
-        <img
-          src="https://cdn.simpleicons.org/vercel/white"
-          title="Vercel"
-          alt="Vercel"
-        />
-      
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/winscp/winscp-original.svg"
-          title="WinSCP"
-          alt="WinSCP"
-        />
+
+      {/* =====================================================
+          VERSION CONTROL & DEPLOYMENT
+      ====================================================== */}
+      <section className="pt-10">
+        <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
+          Version Control & Deployment
+        </h2>
+
+        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+
+          <img
+            src="https://api.iconify.design/logos:git-icon.svg"
+            title="Git"
+            alt="Git"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:github-icon.svg"
+            title="GitHub"
+            alt="GitHub"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:vercel.svg"
+            title="Vercel"
+            alt="Vercel"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:winscp.svg"
+            title="WinSCP"
+            alt="WinSCP"
+          />
+
+        </div>
       </section>
 
-      {/* SERVER & DATABASE TOOLS */}
-      <section className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/putty/putty-original.svg"
-          title="PuTTY"
-          alt="PuTTY"
-        />
-      
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pgadmin/pgadmin-original.svg"
-          title="pgAdmin"
-          alt="pgAdmin"
-        />
+
+      {/* =====================================================
+          SERVER & DATABASE
+      ====================================================== */}
+      <section className="pt-10">
+        <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
+          Server & Database
+        </h2>
+
+        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+
+          <img
+            src="https://api.iconify.design/logos:putty.svg"
+            title="PuTTY"
+            alt="PuTTY"
+          />
+
+          <img
+            src="https://api.iconify.design/logos:pgadmin.svg"
+            title="pgAdmin"
+            alt="pgAdmin"
+          />
+
+        </div>
       </section>
 
     </main>
