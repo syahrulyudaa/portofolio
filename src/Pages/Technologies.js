@@ -30,49 +30,57 @@ function Technologies() {
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
 
           <img
-            src="https://api.iconify.design/logos:html-5.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/html5"
             title="HTML"
             alt="HTML"
           />
 
           <img
-            src="https://api.iconify.design/logos:css-3.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/css"
             title="CSS"
             alt="CSS"
           />
 
           <img
-            src="https://api.iconify.design/logos:javascript.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/javascript"
             title="JavaScript"
             alt="JavaScript"
           />
 
           <img
-            src="https://api.iconify.design/logos:php.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/php"
             title="PHP"
             alt="PHP"
           />
 
           <img
-            src="https://api.iconify.design/logos:laravel.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/laravel"
             title="Laravel"
             alt="Laravel"
           />
 
           <img
-            src="https://api.iconify.design/logos:react.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/react"
             title="React"
             alt="React"
           />
 
           <img
-            src="https://api.iconify.design/logos:tailwindcss-icon.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/tailwindcss"
             title="Tailwind CSS"
             alt="Tailwind CSS"
           />
 
           <img
-            src="https://api.iconify.design/logos:bootstrap.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/bootstrap"
             title="Bootstrap"
             alt="Bootstrap"
           />
@@ -92,13 +100,15 @@ function Technologies() {
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
 
           <img
-            src="https://api.iconify.design/logos:mysql.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/mysql"
             title="MySQL"
             alt="MySQL"
           />
 
           <img
-            src="https://api.iconify.design/logos:postgresql.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/postgresql"
             title="PostgreSQL"
             alt="PostgreSQL"
           />
@@ -118,7 +128,8 @@ function Technologies() {
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
 
           <img
-            src="https://api.iconify.design/logos:espressif.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/espressif"
             title="ESP32"
             alt="ESP32"
           />
@@ -153,19 +164,22 @@ function Technologies() {
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
 
           <img
-            src="https://api.iconify.design/logos:visual-studio-code.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/visualstudiocode"
             title="Visual Studio Code"
             alt="Visual Studio Code"
           />
 
           <img
-            src="https://api.iconify.design/logos:android-icon.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/androidstudio"
             title="Android Studio"
             alt="Android Studio"
           />
 
           <img
-            src="https://api.iconify.design/logos:xampp.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/xampp"
             title="XAMPP"
             alt="XAMPP"
           />
@@ -185,25 +199,30 @@ function Technologies() {
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
 
           <img
-            src="https://api.iconify.design/logos:git-icon.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/git"
             title="Git"
             alt="Git"
           />
 
           <img
-            src="https://api.iconify.design/logos:github-icon.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/github/white"
             title="GitHub"
             alt="GitHub"
           />
 
           <img
-            src="https://api.iconify.design/logos:vercel.svg"
+            className="w-12 h-12 object-contain"
+            src="https://cdn.simpleicons.org/vercel/white"
             title="Vercel"
             alt="Vercel"
           />
 
+          {/* WinSCP - generic file transfer icon */}
           <img
-            src="https://api.iconify.design/logos:winscp.svg"
+            className="w-12 h-12 object-contain"
+            src="https://api.iconify.design/mdi:file-transfer.svg?color=%23ffffff"
             title="WinSCP"
             alt="WinSCP"
           />
@@ -222,14 +241,18 @@ function Technologies() {
 
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
 
+          {/* PuTTY */}
           <img
-            src="https://api.iconify.design/logos:putty.svg"
+            className="w-12 h-12 object-contain"
+            src="https://api.iconify.design/mdi:console.svg?color=%23ffffff"
             title="PuTTY"
             alt="PuTTY"
           />
 
+          {/* pgAdmin */}
           <img
-            src="https://api.iconify.design/logos:pgadmin.svg"
+            className="w-12 h-12 object-contain"
+            src="https://api.iconify.design/mdi:database-cog.svg?color=%23ffffff"
             title="pgAdmin"
             alt="pgAdmin"
           />
