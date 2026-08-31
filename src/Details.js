@@ -18,10 +18,6 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import office from "./assets/techstack/office.png";
 // Porject Images
-import projectImage1 from "./assets/projects/numatik.png";
-import projectImage2 from "./assets/projects/poliklinik.png";
-import projectImage3 from "./assets/projects/porto.png";
-import projectImage4 from "./assets/projects/movie.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
