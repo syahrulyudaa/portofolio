@@ -1,20 +1,76 @@
 import React from "react";
-import { contactDetails } from "../Details";
 
 function Contact() {
-  const { email, phone } = contactDetails;
   return (
     <main className="container mx-auto max-width section">
-      <h1 className="text-center text-2xl md:text-3xl lg:text-6xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
-        For any questions please drop a mail
-      </h1>
-      <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
-        <a href={`mailto:${email}`}>{email}</a>
-      </h3>
-      <span className="text-center text-content text-xl font-light block">or</span>
-      <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
-        <a href={`tel:${phone}`}>{phone}</a>
-      </h3>
+      <section className="max-w-3xl mx-auto text-center">
+
+        {/* TITLE */}
+        <h1 className="text-3xl md:text-4xl xl:text-5xl text-dark-heading dark:text-light-heading font-bold leading-tight">
+          Let's Work Together
+        </h1>
+
+        {/* DESCRIPTION */}
+        <p className="text-content text-base md:text-lg font-light leading-relaxed mt-5 max-w-2xl mx-auto">
+          I'm open to new opportunities, collaborations, and interesting
+          projects. Feel free to get in touch with me.
+        </p>
+
+        {/* CONTACT */}
+        <div className="mt-10 space-y-4">
+
+          {/* EMAIL */}
+          <a
+            href="mailto:syahrulydp@gmail.com"
+            className="block rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-dark-card px-6 py-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
+            <span className="block text-sm text-content mb-1">
+              Email
+            </span>
+
+            <span className="text-lg md:text-xl text-gradient font-semibold">
+              syahrulydp@gmail.com
+            </span>
+          </a>
+
+          {/* PHONE */}
+          <a
+            href="tel:+6285134482496"
+            className="block rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-dark-card px-6 py-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
+            <span className="block text-sm text-content mb-1">
+              Phone
+            </span>
+
+            <span className="text-lg md:text-xl text-gradient font-semibold">
+              +6285134482496
+            </span>
+          </a>
+
+          {/* LINKEDIN */}
+          <a
+            href="https://www.linkedin.com/in/syahrulyudaprasetya/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="block rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-dark-card px-6 py-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
+            <span className="block text-sm text-content mb-1">
+              LinkedIn
+            </span>
+
+            <span className="text-lg md:text-xl text-gradient font-semibold">
+              Syahrul Yuda Prasetya
+            </span>
+          </a>
+
+        </div>
+
+        {/* LOCATION */}
+        <p className="text-content text-sm mt-8">
+          📍 Demak, Jawa Tengah, Indonesia
+        </p>
+
+      </section>
     </main>
   );
 }
