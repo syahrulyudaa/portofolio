@@ -115,52 +115,25 @@ export const techStackDetails = {
 export const projectDetails = [
   {
     title: "SYSWO - Work Order Management System",
-    image: projectImage1,
+    image: null,
     description:
-      "Internal web-based system for managing work orders, technician assignments, work progress, and maintenance history within the company.",
+      "Internal web-based system for managing work orders, technician assignments, work progress, and maintenance history to support maintenance operations.",
     techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
     githubLink: null,
   },
 
   {
-    title: "SYS TRAIN - Training Evaluation System",
-    image: projectImage2,
+    title: "SYS TRAIN - Training Management & Evaluation System",
+    image: null,
     description:
-      "Internal training management and evaluation system for managing training participants, evaluation forms, questions, and employee evaluation results.",
+      "Internal system for managing employee training, participants, evaluation forms, questions, responses, and training evaluation results.",
     techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
     githubLink: null,
   },
 
   {
-    title: "STS - Service Tracking System",
-    image: projectImage3,
-    description:
-      "Internal service tracking system for managing service processes and generating digital Surat Jalan for company operations.",
-    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
-    githubLink: null,
-  },
-
-  {
-    title: "OEE Monitoring System",
-    image: projectImage4,
-    description:
-      "IoT-based machine monitoring system that collects machine speed data using ESP32 and 4–20 mA sensors and displays monitoring data through a web application.",
-    techstack: "ESP32, Laravel, PHP, PostgreSQL, IoT",
-    githubLink: null,
-  },
-
-  {
-    title: "PM10 Internal Portal",
-    image: projectImage3,
-    description:
-      "Internal company portal that provides centralized access to various applications and digital systems used for daily operations.",
-    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
-    githubLink: null,
-  },
-
-  {
-    title: "Reqsys - IT Request System",
-    image: projectImage2,
+    title: "REQSYS - IT Request Management System",
+    image: null,
     description:
       "Internal IT request management system for submitting, tracking, and managing employee requests for IT services and support.",
     techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
@@ -168,11 +141,65 @@ export const projectDetails = [
   },
 
   {
-    title: "Numatik",
-    image: projectImage1,
+    title: "STS - Service Tracking System",
+    image: null,
     description:
-      "Website for browsing and booking event tickets with detailed event information and booking features.",
-    techstack: "HTML/CSS, JavaScript, PHP, React",
+      "Internal service tracking system for managing service processes and supporting the digital creation and printing of Surat Jalan.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "OEE Monitoring System",
+    image: null,
+    description:
+      "IoT-based machine monitoring system that collects machine speed data using ESP32 and 4–20 mA sensors and displays the data through a web-based monitoring dashboard.",
+    techstack: "ESP32, Laravel, PHP, PostgreSQL, IoT",
+    githubLink: null,
+  },
+
+  {
+    title: "PM10 - Internal Company Portal",
+    image: null,
+    description:
+      "Internal company portal that centralizes access to various applications and digital systems used to support daily company operations.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "PDD - Digital Document Management",
+    image: null,
+    description:
+      "Digital document management system designed to organize company documents and make document storage, searching, and access more efficient.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "Maintenance System",
+    image: null,
+    description:
+      "Machine maintenance management system for organizing maintenance schedules, machine checklists, and maintenance activities.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "PowerCall - Electrical & Steam Calculation System",
+    image: null,
+    description:
+      "Calculation system developed to support electrical and steam monitoring and calculation activities within the company.",
+    techstack: "Laravel, PHP, PostgreSQL, Tailwind CSS",
+    githubLink: null,
+  },
+
+  {
+    title: "Numatik",
+    image: null,
+    description:
+      "Web-based event platform for browsing and booking event tickets with detailed event information and booking features.",
+    techstack: "HTML, CSS, JavaScript, PHP, React",
     githubLink: "https://github.com/syahrulyudaa",
   },
 ];
