@@ -148,49 +148,37 @@ function Technologies() {
       </section>
 
       {/* VERSION CONTROL & DEPLOYMENT */}
-      <section className="pt-10">
-        <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
-          Version Control & Deployment
-        </h2>
-
-        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
-          <img src={git} title="Git" alt="Git" />
-
-          <img src={github} title="GitHub" alt="GitHub" />
-
-          <img
-            src="https://cdn.simpleicons.org/vercel"
-            title="Vercel"
-            alt="Vercel"
-          />
-
-          <img
-            src="https://cdn.simpleicons.org/winscp"
-            title="WinSCP"
-            alt="WinSCP"
-          />
-        </div>
+      <section className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+        <img src={git} title="Git" alt="Git" />
+      
+        <img src={github} title="GitHub" alt="GitHub" />
+      
+        <img
+          src="https://cdn.simpleicons.org/vercel/white"
+          title="Vercel"
+          alt="Vercel"
+        />
+      
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/winscp/winscp-original.svg"
+          title="WinSCP"
+          alt="WinSCP"
+        />
       </section>
 
       {/* SERVER & DATABASE TOOLS */}
-      <section className="pt-10">
-        <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
-          Server & Database
-        </h2>
-
-        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
-          <img
-            src="https://cdn.simpleicons.org/putty"
-            title="PuTTY"
-            alt="PuTTY"
-          />
-
-          <img
-            src="https://cdn.simpleicons.org/pgadmin"
-            title="pgAdmin"
-            alt="pgAdmin"
-          />
-        </div>
+      <section className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/putty/putty-original.svg"
+          title="PuTTY"
+          alt="PuTTY"
+        />
+      
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pgadmin/pgadmin-original.svg"
+          title="pgAdmin"
+          alt="pgAdmin"
+        />
       </section>
 
     </main>
