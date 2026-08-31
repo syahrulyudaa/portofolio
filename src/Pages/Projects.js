@@ -9,6 +9,7 @@ function Projects() {
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Projects
         </h1>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {React.Children.toArray(
             projectDetails.map(
@@ -18,24 +19,7 @@ function Projects() {
                   image={image}
                   description={description}
                   techstack={techstack}
-                  {githubLink && (
-                    <a
-                      href={githubLink}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="flex items-center gap-2"
-                    >
-                      <svg
-                        className="fill-dark-heading dark:fill-light-heading"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                      >
-                        {/* icon github */}
-                      </svg>
-                      View Code
-                    </a>
-                  )}
+                  githubLink={githubLink}
                 />
               )
             )
