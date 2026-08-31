@@ -46,7 +46,7 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "IT Staff",
+    Position: "IT Staff & Web Developer",
     Company: `PT Pura Barutama`,
     Location: "Kudus, Jawa Tengah",
     Type: "Fulltime",
