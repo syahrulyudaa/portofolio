@@ -18,7 +18,24 @@ function Projects() {
                   image={image}
                   description={description}
                   techstack={techstack}
-                  githubLink={githubLink}
+                  {githubLink && (
+                    <a
+                      href={githubLink}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="flex items-center gap-2"
+                    >
+                      <svg
+                        className="fill-dark-heading dark:fill-light-heading"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                      >
+                        {/* icon github */}
+                      </svg>
+                      View Code
+                    </a>
+                  )}
                 />
               )
             )
