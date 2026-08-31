@@ -7,17 +7,11 @@ function Technologies() {
     css,
     js,
     react,
-    sass,
-    redux,
     tailwind,
     bootstrap,
     vscode,
     github,
     git,
-    npm,
-    postman,
-    figma,
-    office,
   } = techStackDetails;
 
   return (
@@ -30,7 +24,7 @@ function Technologies() {
         </h1>
 
         <p className="text-content py-2 lg:max-w-3xl">
-          Technologies I use to build web applications, systems, and digital solutions.
+          Technologies I use to develop web applications and digital systems.
         </p>
       </section>
 
@@ -39,10 +33,8 @@ function Technologies() {
         <img src={css} title="CSS" alt="CSS" />
         <img src={js} title="JavaScript" alt="JavaScript" />
         <img src={react} title="React" alt="React" />
-        <img src={sass} title="Sass" alt="Sass" />
         <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
         <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
-        <img src={redux} title="Redux" alt="Redux" />
       </section>
 
       {/* TOOLS */}
@@ -52,7 +44,7 @@ function Technologies() {
         </h1>
 
         <p className="text-content py-2 lg:max-w-3xl">
-          Tools I use for development, version control, API testing, and design.
+          Tools I use for software development, version control, and deployment.
         </p>
       </section>
 
@@ -60,10 +52,6 @@ function Technologies() {
         <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" />
         <img src={github} title="GitHub" alt="GitHub" />
         <img src={git} title="Git" alt="Git" />
-        <img src={npm} title="NPM" alt="NPM" />
-        <img src={postman} title="Postman" alt="Postman" />
-        <img src={figma} title="Figma" alt="Figma" />
-        <img src={office} title="Microsoft Office" alt="Microsoft Office" />
       </section>
 
     </main>
