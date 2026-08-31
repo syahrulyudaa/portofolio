@@ -22,7 +22,18 @@ import projectImage1 from "./assets/projects/numatik.png";
 import projectImage2 from "./assets/projects/poliklinik.png";
 import projectImage3 from "./assets/projects/porto.png";
 import projectImage4 from "./assets/projects/movie.png";
+import php from "./assets/techstack/php.png";
+import laravel from "./assets/techstack/laravel.png";
+import mysql from "./assets/techstack/mysql.png";
+import postgresql from "./assets/techstack/postgresql.png";
+import esp32 from "./assets/techstack/esp32.png";
 
+import xampp from "./assets/techstack/xampp.png";
+import winscp from "./assets/techstack/winscp.png";
+import putty from "./assets/techstack/putty.png";
+import androidStudio from "./assets/techstack/android-studio.png";
+import vercel from "./assets/techstack/vercel.png";
+import pgadmin from "./assets/techstack/pgadmin.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
