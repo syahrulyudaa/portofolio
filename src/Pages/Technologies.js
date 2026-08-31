@@ -3,7 +3,7 @@
   <h2 className="text-lg text-dark-heading dark:text-light-heading md:text-xl font-semibold">
     Web Development
   </h2>
-
+ 
   <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 items-center gap-8 pt-6">
     <img src={html} title="HTML" alt="HTML" />
     <img src={css} title="CSS" alt="CSS" />
